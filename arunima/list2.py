@@ -1,0 +1,16 @@
+a=["a","b","c"]
+a.append("haiii")
+print(a)
+a.insert(1,3)
+print(a)
+a.extend("hello")
+print(a)
+b=["x","y","z"]
+a.append(b)
+print(a)
+a.extend(b)
+print(a)
+a.insert(0,b)
+print(a)
+a.remove(b)
+print(a)
